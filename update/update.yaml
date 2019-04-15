@@ -1,0 +1,7 @@
+-
+  name: server update process
+  hosts: test-servers
+  tasks:
+    - name: upgrade all packages
+      apt:
+        upgrade: dist
