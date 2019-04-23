@@ -1,0 +1,3 @@
+[test]
+t1 ansible_host=10.0.0.1 ansible_user=root
+t2 ansible_host=10.0.0.2 ansible_user=root
