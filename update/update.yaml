@@ -1,7 +1,10 @@
 -
   name: server update process
-  hosts: test-servers
+  hosts: test2
   tasks:
     - name: upgrade all packages
       apt:
         upgrade: dist
+    - name: remove dependencies that are no longer required
+      apt:
+        autoremove: yes
