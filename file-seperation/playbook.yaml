@@ -1,7 +1,5 @@
 -
   name: deploy web-application
-  hosts: db_and_web_servers
+  hosts: test2
   roles:
     - python
-    - mysql_db
-    - flask_web

@@ -1,6 +1,6 @@
 ---
     - name: install dependencies
-      apt: name={{ item }} state=installed
+      apt: name={{ item }} state=present
       with_items:
         - python
         - python-setuptools
